@@ -1,0 +1,253 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+
+<meta name="description" content="pagina web de la empresa kfm"/>
+<meta name="kyeword" content="puertas, ventanas, mosquiteros, vidrio, cambio de vidrio, rejas, cerradura, aberturas cerca"/>
+<meta name="author" content="cassoma"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KFM Aberturas | Aluminio y PVC</title>
+
+<link rel="stylesheet" href="estilo.css">
+<script src="script.js"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins', sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+}
+
+header{
+background:#0d1b2a;
+color:white;
+padding:20px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+position:fixed;
+width:100%;
+top:0;
+z-index:1000;
+}
+
+header h1{
+font-size:22px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-weight:500;
+}
+
+nav a:hover{
+color:#00b4d8;
+}
+
+.hero{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://images.unsplash.com/photo-1581090700227-1e8a9c56c3f1');
+background-size:cover;
+background-position:center;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+.hero h2{
+font-size:48px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:20px;
+max-width:700px;
+}
+
+.btn{
+display:inline-block;
+padding:12px 30px;
+margin-top:20px;
+border-radius:30px;
+text-decoration:none;
+font-weight:600;
+transition:0.3s;
+}
+
+.btn-primary{
+background:#00b4d8;
+color:white;
+}
+
+.btn-primary:hover{
+background:#0096c7;
+}
+
+section{
+padding:100px 40px;
+}
+
+section h2{
+text-align:center;
+margin-bottom:40px;
+font-size:32px;
+color:#0d1b2a;
+}
+
+.nosotros p{
+max-width:900px;
+margin:auto;
+text-align:center;
+line-height:1.8;
+}
+
+.galeria{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.galeria img{
+width:100%;
+border-radius:10px;
+transition:0.3s;
+}
+
+.galeria img:hover{
+transform:scale(1.05);
+}
+
+.contacto{
+text-align:center;
+}
+
+.contacto a{
+margin:10px;
+}
+
+.footer{
+background:#0d1b2a;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+.whatsapp-float{
+position:fixed;
+width:60px;
+height:60px;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+border-radius:50%;
+text-align:center;
+font-size:30px;
+box-shadow:2px 2px 5px rgba(0,0,0,0.3);
+z-index:100;
+display:flex;
+align-items:center;
+justify-content:center;
+text-decoration:none;
+}
+
+@media(max-width:768px){
+.hero h2{
+font-size:32px;
+}
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>KFM Aberturas</h1>
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#nosotros">Nosotros</a>
+<a href="#productos">Productos</a>
+<a href="#contacto">Contacto</a>
+</nav>
+</header>
+
+<section class="hero" id="inicio">
+<h2>Fabricamos Calidad en Aluminio y PVC</h2>
+<p>Especialistas en ventanas, puertas y cerramientos con tecnología y máxima eficiencia.</p>
+<a href="#contacto" class="btn btn-primary">Solicitar Presupuesto</a>
+</section>
+
+<section class="nosotros" id="nosotros">
+<h2>Nosotros</h2>
+<p>
+KFM Aberturas nació con el objetivo de ofrecer productos de alta calidad en aluminio y PVC.
+Desde nuestros inicios trabajamos con compromiso, responsabilidad y tecnología avanzada.
+A lo largo de los años hemos crecido gracias a la confianza de nuestros clientes,
+desarrollando proyectos residenciales y comerciales con excelencia y precisión.
+Nuestro objetivo es brindar soluciones duraderas, modernas y eficientes.
+</p>
+</section>
+
+<section id="productos">
+<h2>Nuestros Productos</h2>
+<h3>FOTOS REALES</h3>
+<div class="galeria">
+<img src="pdbl.jpeg" alt="">
+<img src="curt.jpeg" alt="">
+<img src="akkl.jpeg" alt="">
+<img src="fiii.jpg" alt="">
+<img src="kfmftwo.jpeg" alt="">
+<img src="kfmfone.jpeg" alt="">
+<img src="kfmkfmkfmfkkf.jpg" alt="">
+<img src="pmda.jpeg" alt="">
+<img src="nues.jpeg" alt="">
+
+</div>
+</section>
+
+<section class="contacto" id="contacto">
+<h2>Contacto</h2>
+
+<a class="btn btn-primary" href="https://wa.me/5491167627944" target="_blank">WhatsApp</a>
+<a class="btn btn-primary" href="https://www.facebook.com/share/1GH4dn9fUc/" target="_blank">Facebook</a>
+<a class="btn btn-primary" href="https://www.instagram.com/aberturas.kfm?igsh=N3d0aXFrZG5tNzdm" target="_blank">Instagram</a>
+
+<br><br>
+
+<a class="btn btn-primary" 
+href="https://www.google.com/maps/place/34%C2%B031'49.1%22S+58%C2%B043'26.6%22W/@-34.5302963,-58.726635,17z/data=!3m1!4b1!4m4!3m3!8m2!3d-34.5302963!4d-58.7240601?hl=es&entry=ttu&g_ep=EgoyMDI2MDIxOC4wIKXMDSoASAFQAw%3D%3D" 
+target="_blank">
+Ver Ubicación GPS
+</a>
+
+</section>
+
+<div class="footer">
+© 2026 KFM Aberturas - Todos los derechos reservados
+</div>
+
+<a href="https://wa.me/5491167627944" class="whatsapp-float" target="_blank">
+✆
+</a>
+
+</body>
+</html>
